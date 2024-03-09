@@ -1,4 +1,4 @@
 package com.khumaloaugustine.dagger2car
 
-class Car {
+class Car(val wheels: Wheels, val engine: Engine) {
 }
