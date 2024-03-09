@@ -1,4 +1,6 @@
 package com.khumaloaugustine.dagger2car
 
-class Wheels {
+import javax.inject.Inject
+
+class Wheels @Inject constructor() {
 }
